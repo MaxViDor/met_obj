@@ -12,4 +12,12 @@ public class Author {
     public String getSurnameAuthor(){
         return this.surnameAuthor;
     }
+
+    @Override
+    public String toString(){
+        return "Имя - "
+                + this.nameAuthor
+                + " Фамилия - "
+                + this.surnameAuthor;
+    }
 }

@@ -16,6 +16,10 @@ public class Main {
                 + " написал " + crimeAndPunishment.getAuthor().getNameAuthor() + " " + crimeAndPunishment.getAuthor().getSurnameAuthor()
                 + " в " + crimeAndPunishment.getPublicationYear() + " году");
 
+        System.out.println(bunin);
+        System.out.println(dostoevsky);
 
+        System.out.println(lapty);
+        System.out.println(crimeAndPunishment);
     }
 }

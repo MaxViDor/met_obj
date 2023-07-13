@@ -20,4 +20,14 @@ public class Book {
     public void setPublicationYear(int newPublicationYear){
         publicationYear = newPublicationYear;
     }
+
+    public String toString() {
+        return "Книгу под названием "
+                + this.tytle
+                + " написал "
+                + author.toString()
+                + " в "
+                + this.publicationYear
+                + " году.";
+    }
 }
