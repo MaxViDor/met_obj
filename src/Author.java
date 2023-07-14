@@ -27,7 +27,7 @@ public class Author {
         if (this == o){
             return true;
         }
-        if(o != null){
+        if(o == null){
             return false;
         }
 
